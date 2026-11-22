@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/1568977984306810895/1574074643797512232/ewankona.png" alt="RPR" width="100" />
+  <img src="ewankona.png" alt="RPR" width="100" />
 </p>
 
 <h1 align="center">RED PHYLAX REPUBLIC</h1>
