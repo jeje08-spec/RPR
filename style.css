@@ -596,3 +596,15 @@ a.card .more{display:inline-block;margin-top:1rem}
   .hero-actions .btn,.band .btn{width:100%}
   .page-head{background:linear-gradient(105deg,var(--ink) 0 78%,#fff 78% 78.8%,var(--ink-2) 78.8% 80.5%,var(--red) 80.5%)}
 }
+/* Student life: photo in the red slanted area */
+.page-head.student{position:relative;overflow:hidden;isolation:isolate}
+.page-head.student::after{
+  content:"";position:absolute;top:0;right:0;bottom:0;width:36%;z-index:-1;
+  background:
+    linear-gradient(rgba(225,10,23,.35),rgba(225,10,23,.35)),
+    url(campus.jpg) center/cover no-repeat;
+  clip-path:polygon(18% 0,100% 0,100% 100%,0 100%);
+}
+@media (max-width:620px){
+  .page-head.student::after{width:22%}
+}
