@@ -148,7 +148,7 @@ p{margin:0 0 1em}
 .brand-text small{display:block;margin-top:.2rem;font:600 .72rem var(--font-body);letter-spacing:.06em;text-transform:uppercase;color:var(--red)}
 .logo{
   flex:none;width:54px;height:54px;border-radius:50%;
-  background:url(../images/logo.png) center/cover no-repeat,var(--red); /* red circle shows if the image is missing */
+  background:url(logo.png) center/cover no-repeat,var(--red); /* red circle shows if the image is missing */
   border:1px solid var(--line);
 }
 
