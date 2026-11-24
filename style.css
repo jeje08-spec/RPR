@@ -202,15 +202,14 @@ p{margin:0 0 1em}
 
 /* ============ 6. HOME HERO + STATS ============ */
 .hero{
-  position:relative;isolation:isolate;overflow:hidden;
-  background:var(--red);color:#fff;
-  padding:clamp(3rem,6vw,5rem) 0 clamp(6rem,12vw,10rem);
-}
-/* diagonal white line + black band along the bottom edge (same look as the banner) */
-.hero::before{
-  content:"";position:absolute;left:0;right:0;bottom:0;z-index:-1;
-  height:clamp(120px,19vw,260px);
-  background:linear-gradient(to top left,var(--ink) 0 48%,#fff 48% 51.5%,transparent 51.5%);
+  background:
+    linear-gradient(rgba(27,20,51,.6), rgba(27,20,51,.75)),
+    url("hero.jpg") center / cover no-repeat;
+  color:var(--cream);
+  text-align:center;
+  padding:70px 20px;
+  position:relative;
+  overflow:hidden;
 }
 .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(1.5rem,4vw,3.5rem);align-items:center}
 .hero .eyebrow{color:#fff}
